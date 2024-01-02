@@ -7,7 +7,7 @@ Aizer et al. (2016) used rejected mothers who were eligible to apply to the MP p
 
 This conclusion resulted from the simple regression method which assumed the homogeneous treatment effect. 
 ## What My Research do
-### 1. Found Evidence of Heterogeneous Effect (Table 1 in Result Folder)
+### 1. Found Evidence of Heterogeneous Effect (Table 1 in Results File)
 Replicating the same regression as the original paper but using only data from one state each time, evidence showed that the cash transfers had a heterogeneous instead of homogeneous treatment effect on the longevity of boys in different states.
 ### 2. Estimate This Heterogeneous Effect (Table 2)
 Regression adjustment (RA) and inverse probability weighting (IPW) approaches are used to allow the heterogeneous treatment effect on different people.
@@ -22,7 +22,7 @@ In table 5, non-core covariates are dropped from the original model: the indicat
 ## Results
 Although Aizer et al. (2016) estimated a significant positive ATE of cash transfers on boys’ longevity, this result was not robust enough when the heterogeneous treatment effect was allowed. Generally, ATE and ATT of cash transfers were zero except for the ATE estimated by the model including the state and cohort dummies. It disagreed with the original paper’s conclusion. When the covariates in the regressions measuring the ATE changed, the positive ATE of cash transfers obtained by the original paper did not change much. This was the evidence showing that this positive ATE was stable and robust to the changes in specification.
 
-#### Specific statistical results can be found in the result folder
+#### Specific statistical results can be found in the results file
 
 
 
